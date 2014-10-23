@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9FC9984D-2A88-4E2C-B2E5-E2B0F3AF85F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9247F487-E621-4645-BDA0-9955E3236EEE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1F272F6C-3EE9-4227-8F9E-6BC0011E346D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Domain", "Source\Domain\Domain.fsproj", "{2670145C-2487-427A-AF86-B48920681678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2670145C-2487-427A-AF86-B48920681678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2670145C-2487-427A-AF86-B48920681678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2670145C-2487-427A-AF86-B48920681678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2670145C-2487-427A-AF86-B48920681678}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2670145C-2487-427A-AF86-B48920681678} = {9FC9984D-2A88-4E2C-B2E5-E2B0F3AF85F7}
+	EndGlobalSection
+EndGlobal
