@@ -42,8 +42,9 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conversation.fs" />
+    <Compile Include="Events.fs" />
     <Compile Include="Commands.fs" />
+    <Compile Include="Conversation.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
